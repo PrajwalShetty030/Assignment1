@@ -19,14 +19,12 @@ class Stack {
       return this.last;
     }
   }
-  pop() {
+
+  peek() {
     if (this.last == -1) {
-      console.log("Stack is empty- stack underflow");
+      console.log("Stack is empty ");
     } else {
-      console.log(`Popped element from Stack is : ${this.arry[this.last]}`);
-      this.last -= 1;
-      return this.last;
+      console.log(`The topmost element is ${this.arry[this.last]}`);
     }
   }
-
- 
+}
