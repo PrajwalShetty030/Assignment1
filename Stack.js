@@ -29,18 +29,4 @@ class Stack {
     }
   }
 
-  peek() {
-    if (this.last == -1) {
-      console.log("Stack is empty ");
-    } else {
-      console.log(`The topmost element is ${this.arry[this.last]}`);
-    }
-  }
-}
-
-let stack1 = new Stack(2);
-stack1.push(2);
-stack1.push(3);
-stack1.push(5);
-stack1.pop();
-stack1.peek();
+ 
