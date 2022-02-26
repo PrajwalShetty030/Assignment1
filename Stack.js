@@ -19,7 +19,6 @@ class Stack {
       return this.last;
     }
   }
-
   peek() {
     if (this.last == -1) {
       console.log("Stack is empty ");
